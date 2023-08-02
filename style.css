@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(252, 225, 106);
+}
+body main section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  width: 90%;
+  margin: 100px auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+body main section .uniix-left {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  height: 600px;
+  width: 60%;
+}
+body main section .uniix-left .uniix-big-text {
+  font-size: 45px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  padding: 40px 0;
+}
+body main section .uniix-left .register {
+  border-radius: 30px;
+  border: 1px solid goldenrod;
+  width: 400px;
+  height: 50px;
+  box-shadow: 0 0 5px goldenrod;
+}
+body main section .uniix-left ::-moz-placeholder {
+  color: goldenrod;
+  padding-left: 15px;
+  font-size: 18px;
+}
+body main section .uniix-left ::placeholder {
+  color: goldenrod;
+  padding-left: 15px;
+  font-size: 18px;
+}
+body main section .uniix-left span {
+  display: flex;
+  flex-direction: column;
+}
+body main section .uniix-left span .account {
+  border: 1px solid;
+  border-radius: 30px;
+  margin: 0 320px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  background-image: linear-gradient(to top, goldenrod, rgb(232, 252, 60));
+  color: white;
+  margin-bottom: 20px;
+}
+body main section .uniix-left .checkbox {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: goldenrod;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body main section .uniix-left .sign {
+  display: flex;
+  justify-content: center;
+}
+body main section .uniix-left .sign a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: gold;
+}
+body main section .uniix-left .sign p {
+  color: goldenrod;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+body main section .uniix-right {
+  text-align: center;
+  width: 40%;
+  height: 600px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to top, goldenrod, rgb(232, 252, 60));
+}
+body main section .uniix-right .right-big-text {
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+body main section .uniix-right .right-small-text {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}/*# sourceMappingURL=style.css.map */
